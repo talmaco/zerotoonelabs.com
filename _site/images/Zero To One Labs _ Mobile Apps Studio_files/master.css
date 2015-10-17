@@ -1,0 +1,40 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper {
+  padding-top: 50px;
+  font-size: 18px;
+}
+
+.logo {
+
+}
+
+.desription {
+  padding: 50px;
+}
+
+.description h4 {
+  font-weight: 300;
+}
+
+.company-info {
+
+}
+
+.company-apps {
+  margin-top: 20px;
+  font-weight: 300;
+}
+
+.company-apps ul li {
+  margin-top: 30px;
+}
+
+.footer {
+  margin-top: 40px;
+  font-weight: 300;
+  font-size: 12pt;
+  color: #a0a0a0;
+}
