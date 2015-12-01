@@ -38,3 +38,8 @@ body {
   font-size: 12pt;
   color: #a0a0a0;
 }
+
+.app-logo {
+  background: url('/images/bb.png') no-repeat center center fixed;
+  background-size: cover contain;
+}
