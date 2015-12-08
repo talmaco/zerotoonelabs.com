@@ -1,4 +1,4 @@
-body {
+body p {
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -42,4 +42,21 @@ body {
 .app-logo {
   background: url('/images/bb.png') no-repeat center center fixed;
   background-size: cover contain;
+}
+
+.team img:nth-child(odd) {
+  
+}
+.team img:nth-child(even) {
+  
+}
+.team-member p { 
+  text-align: left;
+  float: right;
+  margin: 20px;
+}
+.team-member-pic {
+  max-width: 100px;
+  max-height: 100px;
+  margin: 20px auto;
 }
