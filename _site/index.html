@@ -8,6 +8,9 @@
   <link rel="stylesheet" href="/css/normalize.css" media="screen" title="no title" charset="utf-8">
   <link rel="stylesheet" href="/css/master.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- start Mixpanel --><script type="text/javascript">(function(e,b){if(!b.__SV){var a,f,i,g;window.mixpanel=b;b._i=[];b.init=function(a,e,d){function f(b,h){var a=h.split(".");2==a.length&&(b=b[a[0]],h=a[1]);b[h]=function(){b.push([h].concat(Array.prototype.slice.call(arguments,0)))}}var c=b;"undefined"!==typeof d?c=b[d]=[]:d="mixpanel";c.people=c.people||[];c.toString=function(b){var a="mixpanel";"mixpanel"!==d&&(a+="."+d);b||(a+=" (stub)");return a};c.people.toString=function(){return c.toString(1)+".people (stub)"};i="disable time_event track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config people.set people.set_once people.increment people.append people.union people.track_charge people.clear_charges people.delete_user".split(" ");
+for(g=0;g<i.length;g++)f(c,i[g]);b._i.push([a,e,d])};b.__SV=1.2;a=e.createElement("script");a.type="text/javascript";a.async=!0;a.src="undefined"!==typeof MIXPANEL_CUSTOM_LIB_URL?MIXPANEL_CUSTOM_LIB_URL:"file:"===e.location.protocol&&"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//)?"https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js":"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js";f=e.getElementsByTagName("script")[0];f.parentNode.insertBefore(a,f)}})(document,window.mixpanel||[]);
+mixpanel.init("38ffd602bfd7f7060f5a7c461ae4e546");</script><!-- end Mixpanel -->
 </head>
   <body>
     <div class="wrapper container">
@@ -28,17 +31,17 @@
                     We build original iPhone apps for both local and international audiences. The big mission is to prepare 1,000 product engineers and launch 1,000 mobile startups. Our current portfolio:
                   </li>
                   <li>
-                    <a href="http://bit.ly/Kelin">Kelin</a>: anonymous social network for women in Kazakhstan (140K users, 110K secrets shared). Get in the App Store: http://bit.ly/Kelin
+                    <a href="http://bit.ly/Kelin">Kelin</a>: anonymous social network for women in Kazakhstan (140K users, 110K secrets shared).
                   </li>
-                  <li><a href="http://bit.ly/get-zero-willpower">Zero Willpower</a>: block distracting websites in the mobile Safari: http://bit.ly/get-zero-willpower.</li>
+                  <li><a href="http://bit.ly/get-zero-willpower" click="mixpanel.track('zero-willpower-click')">Zero Willpower</a>: block distracting websites in the mobile Safari.</li>
                   <li>
-                    <a href="http://bit.ly/being-beethoven">BeingBeethoven</a>: the to-do list of good daily habits from the world’s top performers: from Oprah Winfrey and Tim Ferriss to Warren Buffett and Tony Robbins. Get in the App Store: http://bit.ly/being-beethoven
+                    <a href="http://bit.ly/being-beethoven">BeingBeethoven</a>: the to-do list of good daily habits from the world’s top performers: from Oprah Winfrey and Tim Ferriss to Warren Buffett and Tony Robbins. </a>
                   </li>
-                  <li><a href="http://playkanjininja.com">PersimmonApp.com</a>: the anti-social iOS app helps you reach your goals in 7 areas of your life through the power of visualization and small daily steps. Get in the App Store: </li>
-                  <li><a href="http://syntle.com">Syntle</a>: intelligent flashcards to learn programming languages syntax using spaced repetition (Swift, Objective-C, Python, Shell, git): http://syntle.com</li>
+                  <li><a href="http://playkanjininja.com">PersimmonApp.com</a>: the anti-social iOS app helps you reach your goals in 7 areas of your life through the power of visualization and small daily steps. </li>
+                  <li><a href="http://syntle.com">Syntle</a>: intelligent flashcards to learn programming languages syntax using spaced repetition (Swift, Objective-C, Python, Shell, git)</li>
                 </ul>
                 
-                <p>TEAM</p>
+                <p><strong><h2>TEAM</h2></strong></p>
 
                 <ul class="list-unstyled">
                   <li class="team-member">
@@ -57,7 +60,7 @@
                       Almas Tuyakbayev
                     </p>
                     <p>
-                      COO, Zero To One Labs. Co-founder, ZeroToOneTour.com, TheSummerStartupSchool.com. Head of Media Lab, International IT University. Microsoft Imagine Cup 2008 World Finals. Education: HCI, Carnegie Mellon University.
+                      COO, Zero To One Labs. Co-founder, ZeroToOneTour.com, TheSummerStartupSchool.com. Head of Media Lab, International IT University. Microsoft Imagine Cup 2008 World Finals. Education: MHCI, Carnegie Mellon University.
                     </p>
                   </li>
                   
@@ -95,7 +98,7 @@
                       Ayan Yenbekbay
                     </p>
                     <p>
-                      iOS development. Built 6 iOS apps: Seansy.kz, Kogershin, Metio, Galileo, Instamaniac, Never Drink Alone. Computer Science, University of Minnesota Twin Cities ‘2018. More at http://yenbekbay.me
+                      iOS development. Built 6 iOS apps: Seansy.kz, Kogershin, Metio, Galileo, Instamaniac, Never Drink Alone. Computer Science, University of Minnesota Twin Cities ‘2018. More at <a href="http://yenbekbay.me">yenbekbay.me</a>
                     </p>
                   </li>
 
@@ -112,7 +115,7 @@
               </div>
       <div class="row">
         <div class="footer col-md-8 pull-right">
-            ZeroToOneLabs.com © 2015
+            ZeroToOneLabs.com © 2015-2016
       </div>
         </div>
     </div>
